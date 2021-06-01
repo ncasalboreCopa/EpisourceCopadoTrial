@@ -322,6 +322,15 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Testing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Testing the pipe pre-trial</description>
+        <externalId>false</externalId>
+        <label>Testing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
