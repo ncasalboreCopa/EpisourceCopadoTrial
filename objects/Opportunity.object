@@ -171,6 +171,15 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Contacts</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.Active_Contact__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Opportunities</relationshipLabel>
         <relationshipName>Opportunities</relationshipName>
